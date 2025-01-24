@@ -1,0 +1,2 @@
+[web]
+172.10.0.256 ansible_ssh_user=ubuntu ansible_ssh_private_key_file=home/ubuntu/.ssh/my_aws_key
