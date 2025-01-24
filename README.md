@@ -39,4 +39,5 @@ Setup Instructions
 4. Once the EC2 instance is up, use the public IP to access the NGINX server in your browser.
 
 Conclusion
+
 This project demonstrates how to automate AWS infrastructure deployment and configuration using Terraform and Ansible, improving deployment consistency and reducing manual effort.
