@@ -30,6 +30,7 @@ Setup Instructions
     
 
 3. Initialize Terraform and apply the configurations:
+     ```
     bash
     terraform init
     terraform apply
