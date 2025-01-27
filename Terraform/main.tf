@@ -41,7 +41,7 @@ resource "aws_key_pair" "key_pair" {
 resource "aws_instance" "ubuntu_instance" {
   ami           = "ami-00bb6a80f01f03502" 
   instance_type = "t2.micro"
-  security_groups = [aws_security_group.allow_ssh.name]
+  security_groups = [aws_security_group.allow_ssh.id]
   subnet_id       = aws_subnet.subnet.id
   key_name = aws_key_pair.key_pair.key_name
   tags = {
